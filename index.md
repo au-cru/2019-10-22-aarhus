@@ -11,8 +11,8 @@ humandate: "Oct 22-23, 2019"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00am - 4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-10-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-10-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Luke Johnston", "Kristian", "Dan"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Oana"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Luke Johnston", "Kristian Tylen", "Dan Mønster"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Oana Vuculescu", "Sara Tomiolo", "Maria Izabel Cavassim Alves"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["tfe@econ.au.dk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -43,24 +43,13 @@ see the changes take effect locally.
 </div>
 {% endif %}
 
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://events.au.dk/softwarecarpentry/sign-up.html?uk=13201A6C-8AEC-46EA-82E8-22486BF52733"
   frameborder="0"
   width="100%"
-  height="280px"
+  height="500px"
   scrolling="auto">
 </iframe>
-{% endif %}
-
 
 <h2 id="general">General Information</h2>
 
