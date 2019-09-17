@@ -46,7 +46,7 @@ see the changes take effect locally.
 <h2 id="general">Registration</h2>
 
 Please follow 
-<a href="https://events.au.dk/softwarecarpentry/sign-up.html?uk=13201A6C-8AEC-46EA-82E8-22486BF52733">this link</a>
+<a href=" https://events.au.dk/softwarecarpentry">this link</a>
 to register for this course.
 
 <h2 id="general">General Information</h2>
