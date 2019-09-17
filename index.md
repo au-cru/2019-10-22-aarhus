@@ -43,13 +43,11 @@ see the changes take effect locally.
 </div>
 {% endif %}
 
-<iframe
-  src="https://events.au.dk/softwarecarpentry/sign-up.html?uk=13201A6C-8AEC-46EA-82E8-22486BF52733"
-  frameborder="0"
-  width="100%"
-  height="500px"
-  scrolling="auto">
-</iframe>
+<h2 id="general">Registration</h2>
+
+Please follow 
+<a href="https://events.au.dk/softwarecarpentry/sign-up.html?uk=13201A6C-8AEC-46EA-82E8-22486BF52733">this link</a>
+to register for this course.
 
 <h2 id="general">General Information</h2>
 
